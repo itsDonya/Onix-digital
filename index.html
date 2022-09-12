@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Onix Digital</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <header
+      class="relative w-screen h-24 px-4 bg-white shadow-md flex justify-between items-center"
+    >
+      <a href="./index.html">
+        <img src="./img/logo.png" alt="Logo" />
+      </a>
+
+      <!-- Hamburger menu -->
+      <div
+        class="w-8 hamburger-icon flex flex-col gap-1 items-end cursor-pointer"
+        style="transform-origin: 2px !important"
+      >
+        <span class="w-8/12"></span>
+        <span class="w-full"></span>
+        <span class="w-8/12"></span>
+      </div>
+
+      <!-- Navbar -->
+      <nav
+        class="top-nav absolute w-[72%] min-h-[46vh] px-2 py-4 top-0 right-0 flex flex-col justify-between items-center bg-zinc-100 text-[#191a20] rounded-lg divide-y translate-x-full transition z-30"
+      >
+        <a href="#" class="nav-item text-primary">Home</a>
+        <a href="#" class="nav-item">Services</a>
+        <a href="#" class="nav-item">About</a>
+        <a href="#" class="nav-item">Portfolio</a>
+        <a href="#" class="nav-item">Videos</a>
+        <a href="#" class="nav-item">Contact Us</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Top banner -->
+      <section
+        class="relative px-3 h-[80vh] flex items-center before:content-['SEO'] before:text-9xl before:font-bold before:absolute before:text-primary before:text-opacity-10 before:-rotate-90 before:top-28 before:left-0"
+      >
+        <!-- Owl carousel (Will be added later) -->
+        <div class="z-20">
+          <!-- First item -->
+          <div class="banner-carousel-item">
+            <p class="welcome-text">welcome to onix digital</p>
+
+            <h1 class="banner-title">
+              Build <span class="text-secondary">your website</span> the best in
+              <span class="text-primary">SEO</span>?
+            </h1>
+
+            <p class="banner-description">
+              This is a professional looking HTML Bootstrap 5 website template
+              brought to buy by TemplateMo website.
+            </p>
+
+            <button class="banner-type1">message us now</button>
+
+            <div class="flex items-center gap-2">
+              <svg
+                class="w-10 h-10 p-2.5 fill-white bg-primary rounded-full"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                />
+              </svg>
+
+              <p class="text-primary">010-020-0340</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/script.js"></script>
+    </script>
+  </body>
+</html>

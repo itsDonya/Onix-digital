@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .nav-item {
+    @apply w-full text-center py-4 hover:bg-zinc-200 rounded-md hover:text-primary transition;
+  }
+}
+
+@layer component {
+  /* Hamburger menu */
+  .hamburger-icon {
+    @apply z-40;
+  }
+  .hamburger-icon span {
+    @apply h-[2px] block bg-black rounded-full;
+    transition: all 0.2s ease-in-out !important;
+    transform-origin: 6px;
+  }
+
+  /* Banner */
+  .banner-carousel-item {
+    @apply flex flex-col justify-between items-start gap-3;
+  }
+  .welcome-text {
+    @apply text-primary uppercase;
+  }
+  .banner-title {
+    @apply text-5xl font-bold text-neutral-800 leading-tight !important;
+  }
+  .banner-description {
+    @apply text-sm text-neutral-800 leading-7;
+  }
+}
+
+@layer utilities {
+  .banner-type1 {
+    @apply px-4 py-2 text-white bg-secondary hover:bg-primary capitalize rounded-full transition duration-300;
+  }
+}
