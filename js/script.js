@@ -22,4 +22,12 @@ hamburger.addEventListener("click", () => {
 
   navbar.style.transform = opened ? "translateX(0)" : "translateX(100%)";
   navbar.style.opacity = opened ? "1" : "0";
+
+  if (opened) {
+    navbar.style.display = "flex";
+  } else {
+    setTimeout(() => {
+      navbar.style.display = "none";
+    }, 50);
+  }
 });

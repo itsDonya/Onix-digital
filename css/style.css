@@ -613,6 +613,11 @@ video {
   z-index: 20;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .flex {
   display: flex;
 }
@@ -651,6 +656,14 @@ video {
 
 .w-\[72\%\] {
   width: 72%;
+}
+
+.max-w-\[1\] {
+  max-width: 1;
+}
+
+.max-w-\[1440px\] {
+  max-width: 1440px;
 }
 
 .translate-x-full {
@@ -1007,6 +1020,10 @@ video {
     position: static;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:min-h-full {
     min-height: 100%;
   }
@@ -1050,6 +1067,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:static {
+    position: static;
+  }
+
   .lg\:absolute {
     position: absolute;
   }
