@@ -7,6 +7,10 @@ module.exports = {
         primary: "#ff695f",
         secondary: "#03a4ed",
       },
+      content: {
+        servicesLeftDots: 'url("/img/services-left-dots.png")',
+        servicesRightDots: 'url("/img/services-right-dots.png")',
+      },
     },
   },
   plugins: [],

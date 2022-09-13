@@ -45,6 +45,17 @@
   .contact-us-container {
     @apply flex flex-col md:flex-row gap-3;
   }
+
+  /* Service */
+  .service {
+    @apply w-96 py-8 bg-white shadow-lg hover:shadow-xl transition rounded-lg flex-col items-center gap-8 !important;
+  }
+  .service-title {
+    @apply text-lg font-bold text-neutral-900 !important;
+  }
+  .service-description {
+    @apply text-sm text-neutral-600;
+  }
 }
 
 @layer utilities {
