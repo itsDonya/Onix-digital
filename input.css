@@ -7,6 +7,12 @@
     @apply w-full text-neutral-700 text-center py-4 md:py-0 md:font-medium hover:bg-zinc-200 md:hover:bg-inherit rounded-md hover:text-primary transition;
     transition: all 0.2s ease-in-out !important;
   }
+  .article-heading {
+    @apply w-80 lg:w-96 mx-auto text-3xl text-center font-bold capitalize text-neutral-800 leading-tight;
+  }
+  .low-opacity {
+    @apply text-3xl font-bold text-primary text-opacity-30 uppercase text-center tracking-wider;
+  }
 }
 
 @layer component {
@@ -55,6 +61,14 @@
   }
   .service-description {
     @apply text-sm text-neutral-600;
+  }
+
+  /* Projects */
+  .project {
+    @apply w-11/12 relative rounded-3xl overflow-hidden before:absolute before:-bottom-20 before:right-4 before:w-36 md:before:w-48 before:h-16 md:before:h-20 before:rounded-tl-2xl before:rounded-br-2xl before:cursor-pointer before:text-white before:text-sm before:bg-gradient-to-bl before:from-primary before:to-amber-600 before:flex before:items-center before:justify-center before:transition-all hover:brightness-90 hover:before:bottom-4 transition !important;
+  }
+  .project-photo {
+    @apply w-full;
   }
 }
 
