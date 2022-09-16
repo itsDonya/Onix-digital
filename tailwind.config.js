@@ -10,6 +10,7 @@ module.exports = {
       content: {
         servicesLeftDots: 'url("/img/services-left-dots.png")',
         servicesRightDots: 'url("/img/services-right-dots.png")',
+        plansLeftVector: 'url("/img/plan-left-dec.png")',
       },
     },
   },
