@@ -8,7 +8,7 @@
     <title>Onix Digital</title>
   </head>
   <body
-    class="w-full max-w-[1440px] mx-auto selection:text-white selection:bg-primary selection:bg-opacity-60"
+    class="max-w-[1440px] mx-auto selection:text-white selection:bg-primary selection:bg-opacity-60"
   >
     <header
       class="relative 2xl:w-full h-24 px-4 sm:px-8 bg-white shadow-md flex justify-between items-center"
@@ -234,7 +234,7 @@
         <p class="low-opacity">our plans</p>
 
         <section
-          class="my-8 relative before:content-plansLeftVector before:absolute before:left-0 before:-z-10 flex flex-col md:flex-row px-4 items-center justify-center gap-6"
+          class="my-8 relative before:content-plansLeftVector before:absolute before:max-w-11/12 before:left-0 before:-z-10 flex flex-col md:flex-row px-4 items-center justify-center gap-6"
         >
           <!-- Starter plan -->
           <div class="plan">
@@ -279,7 +279,7 @@
       </article>
 
       <!-- Subscribe -->
-      <article class="mt-20">
+      <section class="mt-20">
         <form
           class="relative w-11/12 min-h-44 py-6 mx-auto bg-gradient-to-tr from-blue-700 to-cyan-500 after:hidden after:md:block rounded-xl flex flex-col gap-4 justify-around items-center after:content-subscribeVector after:absolute after:-right-5 after:-top-5"
         >
@@ -302,10 +302,37 @@
               id=""
               placeholder="Your Email"
             />
-            <button class="w-8/12 lg:w-4/12 xl:w-2/12 button-type1 lg:mr-3">subscribe</button>
+            <button class="w-8/12 lg:w-4/12 xl:w-2/12 button-type1 lg:mr-3">
+              subscribe
+            </button>
           </div>
         </form>
-      </article>
+      </section>
+
+      <!-- Contact -->
+      <section class="my-20">
+        <h2 class="article-heading">
+          Feel Free To <span class="text-secondary">Contact</span> Us Via The
+          <span class="text-primary">HTML Form</span>
+        </h2>
+        <form
+          class="w-11/12 lg:w-1/2 h-80 my-8 mx-auto border-2 border-primary rounded-xl flex flex-col justify-evenly items-start px-12"
+        >
+          <input type="text" class="contact-form-input" placeholder="Name" />
+          <input type="text" class="contact-form-input" placeholder="Surname" />
+          <input
+            type="email"
+            class="contact-form-input"
+            placeholder="Your Email"
+          />
+          <input
+            type="url"
+            class="contact-form-input"
+            placeholder="Your Website URL"
+          />
+          <button class="button-type2">submit request</button>
+        </form>
+      </section>
     </main>
     <script src="./js/script.js"></script>
   </body>
