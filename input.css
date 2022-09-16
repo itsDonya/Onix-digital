@@ -8,7 +8,7 @@
     transition: all 0.2s ease-in-out !important;
   }
   .article-heading {
-    @apply w-80 lg:w-96 mx-auto text-3xl text-center font-bold capitalize text-neutral-800 leading-tight;
+    @apply w-80 lg:w-96 mx-auto text-3xl text-center font-bold capitalize text-neutral-800 leading-snug;
   }
   .low-opacity {
     @apply text-3xl font-bold text-primary text-opacity-30 uppercase text-center tracking-wider;
@@ -69,6 +69,20 @@
   }
   .project-photo {
     @apply w-full;
+  }
+
+  /* Counters */
+  .counter {
+    @apply flex flex-col justify-center items-center md:items-start gap-3;
+  }
+  .counter-number {
+    @apply text-5xl font-bold text-neutral-800 !important;
+  }
+  .counter-title {
+    @apply text-primary;
+  }
+  .counter-caption {
+    @apply text-neutral-700 md:text-sm;
   }
 }
 

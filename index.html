@@ -94,7 +94,7 @@
 
       <!-- Services -->
       <article
-        class="relative before:content-servicesLeftDots before:absolute before:-top-40 before:-left-48 lg:before:left-0 before:-z-10 after:content-servicesRightDots after:hidden md:after:block after:absolute after:-bottom-48 after:right-10 after:-z-10"
+        class="mt-20 relative before:content-servicesLeftDots before:absolute before:-top-40 before:-left-48 lg:before:left-0 before:-z-10 after:content-servicesRightDots after:hidden md:after:block after:absolute after:-bottom-48 after:right-10 after:-z-10"
       >
         <h2 class="article-heading">
           we <span class="text-secondary">provide</span> the best service with
@@ -102,7 +102,9 @@
         </h2>
         <p class="low-opacity">our services</p>
 
-        <section class="services mx-6 my-8 flex items-center justify-center gap-3">
+        <section
+          class="services mx-6 my-8 flex items-center justify-center gap-3"
+        >
           <!-- Guidelines -->
           <div class="service flex">
             <h4 class="service-title">Learn More about our Guidelines</h4>
@@ -138,15 +140,64 @@
         </section>
       </article>
 
+      <!-- About -->
+      <article class="mt-20 flex flex-col md:flex-row items-center gap-4">
+        <!-- Left side -->
+        <div>
+          <img src="./img/about.png" alt="" />
+        </div>
+        <!-- Right side -->
+        <div class="px-4">
+          <h2 class="article-heading sm:w-4/5 sm:text-left md:w-full md:pr-16">
+            grow your website with our
+            <span class="text-secondary">SEO tools</span> &
+            <span class="text-primary">Project</span> management
+          </h2>
+          <p class="mx-auto text-neutral-700 text-center my-6 sm:w-4/5 md:w-full md:text-start">
+            Lorem ipsum dolor sitti amet, consectetur Lorem ipsum dolor sitti
+            amet, consectetur Lorem ipsum dolor sitti amet, consectetur
+          </p>
+          <!-- Counters -->
+          <section class="flex flex-col md:flex-row items-center justify-center gap-8 mt-16">
+            <!-- SEO Projects -->
+            <div class="counter">
+              <img src="./img/service-icon-01.png" alt="" />
+              <h3 class="counter-number">320</h3>
+              <p class="counter-title">SEO Project</p>
+              <hr width="100%" />
+              <p class="counter-caption">Lorem ipsum dolor sitti amet, consectetur.</p>
+            </div>
+            <!-- Websites -->
+            <div class="counter">
+              <img src="./img/service-icon-02.png" alt="" />
+              <h3 class="counter-number">640</h3>
+              <p class="counter-title">Websites</p>
+              <hr width="100%" />
+              <p class="counter-caption">Lorem ipsum dolor sitti amet, consectetur.</p>
+            </div>
+            <!-- Satisfied Clients -->
+            <div class="counter">
+              <img src="./img/service-icon-03.png" alt="" />
+              <h3 class="counter-number">120</h3>
+              <p class="counter-title">Satisfied Clients</p>
+              <hr width="100%" />
+              <p class="counter-caption">Lorem ipsum dolor sitti amet, consectetur.</p>
+            </div>
+          </section>
+        </div>
+      </article>
+
       <!-- Projects -->
-      <article>
+      <article class="mt-20">
         <h2 class="article-heading">
           our recent <span class="text-secondary">projects</span> & case studies
           <span class="text-primary">for clients</span>
         </h2>
         <p class="low-opacity">our portfolio</p>
 
-        <section class="my-12 flex items-center justify-center sm:gap-6 sm:mx-6">
+        <section
+          class="my-12 flex items-center justify-center sm:gap-6 sm:mx-6"
+        >
           <!-- First project -->
           <div class="project before:content-['Space_Dynamic_SEO']">
             <img src="./img/portfolio-01.jpg" class="project-photo" alt="" />
@@ -158,9 +209,7 @@
             <img src="./img/portfolio-02.jpg" class="project-photo" alt="" />
           </div>
           <!-- Third project -->
-          <div
-            class="hidden sm:block project before:content-['Plot_Listing']"
-          >
+          <div class="hidden sm:block project before:content-['Plot_Listing']">
             <img src="./img/portfolio-03.jpg" class="project-photo" alt="" />
           </div>
         </section>
