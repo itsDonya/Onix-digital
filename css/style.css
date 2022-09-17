@@ -479,24 +479,6 @@ video {
   --tw-text-opacity: 0.3;
 }
 
-.footer-heading {
-  margin-bottom: 0.75rem;
-  font-weight: 700;
-  text-transform: capitalize;
-  --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity));
-}
-
-.social-icon {
-  height: 2rem !important;
-  width: 2rem !important;
-  border-radius: 9999px !important;
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(3 164 237 / var(--tw-bg-opacity)) !important;
-  fill: #fff !important;
-  padding: 0.5rem !important;
-}
-
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -1503,11 +1485,45 @@ video {
     line-height: 1.25rem !important;
     --tw-text-opacity: 1 !important;
     color: rgb(107 114 128 / var(--tw-text-opacity)) !important;
+    transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter !important;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter !important;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter !important;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transition-duration: 150ms !important;
   }
 
   .footer-links:hover {
     --tw-text-opacity: 1 !important;
     color: rgb(17 24 39 / var(--tw-text-opacity)) !important;
+  }
+
+  .footer-heading {
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    --tw-text-opacity: 1;
+    color: rgb(31 41 55 / var(--tw-text-opacity));
+  }
+
+  .social-icon {
+    height: 2rem !important;
+    width: 2rem !important;
+    cursor: pointer !important;
+    border-radius: 9999px !important;
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(3 164 237 / var(--tw-bg-opacity)) !important;
+    fill: #fff !important;
+    padding: 0.5rem !important;
+    transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter !important;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter !important;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter !important;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transition-duration: 300ms !important;
+  }
+
+  .social-icon:hover {
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(255 105 95 / var(--tw-bg-opacity)) !important;
   }
 }
 
